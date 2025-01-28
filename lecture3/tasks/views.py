@@ -1,11 +1,11 @@
 from django.shortcuts import render
 
-tasks = ["foo", "bar", "baz"]
+task = ["harry", "ron", "kali", "foo", "bar", "baz"]
 
 # Create your views here.
 def index(request):
     print("start tasks")
     return render(request, "tasks/index.html",{
-        "tasks": tasks
+        "names": task
     }
   )
