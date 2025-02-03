@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Single Page</title>
+        <style>
+
+            @keyframes hide {
+                0% {
+                    opacity: 1;
+                    height: 100%;
+                    line-height: 100%;
+                    padding: 20px;
+                    margin-bottom: 10px;
+                }
+
+                50% {
+                    opacity: 0;
+                    height: 100%;
+                    line-height: 100%;
+                    padding: 20px;
+                    margin-bottom: 10px;
+
+                }
+
+                100% {
+                    opacity: 0;
+                    height: 0px;
+                    line-height: 0px;
+                    padding: 0px;
+                    margin-bottom: 0px;
+                }
+            }
+            
+            .post {
+                background-color: #77dd11;
+                padding: 20px;
+                margin-bottom: 10px;
+                animation-name: hide;
+                animation-duration: 1s;
+                animation-fill-mode: forwards;
+                animation-play-state: paused;
+
+            }
+
+        </style>
+        <script>
+
+            window.onpopstate = function(event) {
+                console.log(event.state.sections);
+                showSection(event.state.sections);
+            }
+
+            function showSection(section) {
+
+                fetch(`/sections/${section}`)
+                .then(Response => Response.text())
+                .then(text => {
+                    console.log(text);
+                    document.querySelector('#content').innerHTML = text;
+                });
+            }
+
+            document.addEventListener('DOMContentLoaded', () => {
+                document.querySelectorAll('button').forEach(button => {
+                    button.onclick = function () {
+                        const section = this.dataset.section;
+                        history.pushState({"sections": section}, "asd", "");
+                        showSection(this.dataset.section);
+                    }
+                });
+            });
+
+            // Start with first post
+            let counter = 1;
+
+            // Load posts 20 at a time
+            const quantity = 20;
+            
+            // When DOM  loads, render the first 20 posts
+            document.addEventListener('DOMContentLoaded', load);
+
+            //Load nexxt set of posts
+            function load() {
+
+                // Set start and end post numbers, and update counter
+                const start = counter;
+                const end = start + quantity - 1;
+                counter = end + 1;
+
+                // Get new posts and add posts
+                fetch(`/posts?start=${start}&end=${end}`)
+                .then(Response => Response.json())
+                .then(data => {
+                    data.posts.forEach(add_post);
+                });
+
+            };
+
+            // Add a new post with given contents to DOM
+            function add_post(contents) {
+
+                // Create new post 
+                const post = document.createElement('div');
+                post.className = 'post';
+                post.innerHTML = contents;
+                post.style.backgroundColor = 'green';
+                post.style.borderColor = 'yellow';
+                post.style.width = '12em';
+                post.style.border = ' solid 1px red';
+                post.style.height = '1em';
+                post.style.padding = '1em';
+                post.className = 'post';
+                post.innerHTML = `${contents} <button class="hide">Hide</button>`;
+                // Add post to DOM
+                document.querySelector('#posts').append(post);
+
+            };
+
+            // Add scroll posts
+            window.onscroll = () => {
+                if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+                    load();
+                }};
+    
+                document.addEventListener('click', event => {
+                    const element =  event.target;
+                    if (element.className === 'hide') {
+                        element.parentElement.style.animationPlayState = 'running';
+                        element.parentElement.addEventListener('animationend', () => {
+                            element.parentElement.remove();
+                        })
+                    }
+                })
+
+        </script>
+    </head>
+    <body>
+        <div id="content">
+        </div>
+        <button data-section="1">Page 1</button>
+        <button data-section="2">Page 2</button>
+        <button data-section="3">Page 3</button>
+        <div id="posts">
+
+        </div>
+    </body>
+</html>
