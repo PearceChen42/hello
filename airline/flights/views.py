@@ -6,6 +6,8 @@ from django.http import HttpResponseRedirect, Http404
 from django.urls import reverse
 
 # Create your views here.
+
+
 def index(request):
     return render(request, "flights/index.html", {
         "flights": Flight.objects.all()
@@ -24,7 +26,7 @@ def flight(request, flight_id):
     })
     
 
-def book(request,flight_id):
+def book(request, flight_id):
     if request.method == "POST":
         flight = Flight.objects.get(pk=flight_id)
         passenger = Passenger.objects.get(pk=int(request.POST["passenger"]))
