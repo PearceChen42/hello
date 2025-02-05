@@ -12,6 +12,7 @@ jobs:
             pwd
             ls
             cd ./airline
-            python3 ./airline/manage.py test
+            pwd
+            python3 manage.py test
 
             
