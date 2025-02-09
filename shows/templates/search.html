@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+    {% for show in shows %}
+        <li> {{ show.title }} {{ show.rating }} {{ show.votes }} </li>
+    {% endfor %}
+  
+
+{% endblock %}
