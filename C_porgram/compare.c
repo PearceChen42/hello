@@ -1,20 +1,19 @@
 #include <cs50.h>
 #include <stdio.h>
+#include <string.h>
 
 int main(void)
 {
-    int x = get_int("What's x?");
-    int y = get_int("What's y?");
+  string s = get_string("s:");
+  string t = get_string("t: ");
 
-    if (x < y)
-    {
-        printf("x is less than y\n");
-    }
-    else if ( x == y)
-    {
-        printf("x is equal y\n");
-    }
-    else{
-        printf("x is greater than y\n");
-    }
+  if ( *s == *t  && *(s+1) == *(t+1))
+  {
+    printf("Same first two char\n");
+
+  }
+  else
+  {
+    printf("Different\n");
+  }
 }
