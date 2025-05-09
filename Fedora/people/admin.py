@@ -4,4 +4,3 @@ from .models import Person
 @admin.register(Person)
 class PersonAdmin(admin.ModelAdmin):
     list_display = ("first", "last", "title")
-    
