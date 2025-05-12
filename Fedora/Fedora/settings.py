@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ["*",]
 
 INSTALLED_APPS = [
     'rest_framework',
+    'vehicles',
     'people',
     'artifacts',
     'books',
@@ -41,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'api',
 ]
 
 MIDDLEWARE = [
