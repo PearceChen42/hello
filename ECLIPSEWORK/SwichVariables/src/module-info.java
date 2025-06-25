@@ -1,0 +1,2 @@
+module SwichVariables {
+}

@@ -1,0 +1,19 @@
+package defaultpackage;
+
+public class Human {
+	String name;
+	int age;
+	double weight;
+	
+	
+	Human(String name, int age, double weight) {
+		
+		name = name;
+		
+		age = age;
+		weight = weight;
+		
+		
+	}
+
+}

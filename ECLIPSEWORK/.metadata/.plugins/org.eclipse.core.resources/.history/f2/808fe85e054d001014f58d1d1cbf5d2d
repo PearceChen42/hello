@@ -1,0 +1,18 @@
+
+public class JavaArrayOfobjects {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		int[] numbers = new int[3];
+		char[] characters = new char[4];
+		String[] strings = new String[5];
+		
+		food[] refrigerator = new food[3];
+		
+		
+		
+	}
+
+}

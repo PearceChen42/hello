@@ -1,0 +1,17 @@
+
+public class JavaStaticKeyWord {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Friend friend1 = new Friend("Sponegbob");
+		Friend friend2 = new Friend("Patrick");
+		Friend friend3 = new Friend("Squidward");
+		
+		
+		Friend.displayFriends();
+		
+		
+	}
+
+}

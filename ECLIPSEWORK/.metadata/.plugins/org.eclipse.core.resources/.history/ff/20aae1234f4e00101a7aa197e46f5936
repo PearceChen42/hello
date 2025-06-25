@@ -1,0 +1,8 @@
+
+public class Car2 extends Vehicle2 {
+	
+	void go() {
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+import java.io.File;
+import java.io.IOException;
+
+import javax.sound.sampled.*;
+
+
+public class Main {
+
+	public static void main(String[] args) throws UnsupportedAudioFileException, IOException {
+		// TODO Auto-generated method stub
+
+		
+		File file = new File("Excess - Freedom Trail Studio.wav");
+		AudioInputStream audioStream = AudioSystem.getAudioInputStream(file);
+		Clip clip = AudioSystem.getClip();
+		
+		
+		
+		
+	}
+
+}

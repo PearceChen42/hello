@@ -1,0 +1,12 @@
+package package2;
+import package1.*;
+public class C {
+	
+	public String publicMessage = "This is public";
+	protected String protectedMessage = "This is protected";
+	String defailtMessage = "This is the dufault";
+	
+	private String privateMessage = "This is the private";
+	
+
+}

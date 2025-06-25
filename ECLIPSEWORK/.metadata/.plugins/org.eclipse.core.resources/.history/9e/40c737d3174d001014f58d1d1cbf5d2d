@@ -1,0 +1,8 @@
+
+public class Garage {
+
+	void park(Car sljkdk ) {
+		System.out.print("The " + sljkdk.name + " is parked in the garage");
+		
+	}
+}

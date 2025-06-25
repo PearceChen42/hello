@@ -1,0 +1,16 @@
+import javax.sound.sampled.*;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		File file = new File("Excess - Freedom Trail Studio.wav");
+		
+		
+		
+	}
+
+}

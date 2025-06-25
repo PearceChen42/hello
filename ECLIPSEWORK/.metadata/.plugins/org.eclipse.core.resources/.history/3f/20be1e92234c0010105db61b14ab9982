@@ -1,0 +1,10 @@
+package defaultpackage;
+
+public class JavaPrintf {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.printf("This is a format string %d", 123);
+	}
+
+}

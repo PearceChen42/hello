@@ -1,0 +1,15 @@
+
+public class encapsulation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Car car = new Car("Chevrolet", "Camaro",2021);
+		
+		System.out.println(car.getMake() + " " + car.getModel());
+		
+		
+	}
+
+}

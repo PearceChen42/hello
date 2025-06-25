@@ -1,0 +1,11 @@
+package defaultpackage;
+
+public class JavaOverloadConstructors {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Pizza pizza = new Pizza();
+	}
+
+}

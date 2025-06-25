@@ -1,0 +1,13 @@
+import java.io.FileWriter;
+
+public class JavaFileWriter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		FileWriter writer = new FileWriter("Secret_Message.txt");
+		
+	}
+
+}

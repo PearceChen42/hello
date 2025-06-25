@@ -1,0 +1,15 @@
+package defaultpackage;
+
+public class Pizza {
+
+	String bread;
+	String sauce;
+	String cheese;
+	String topping;
+	
+	
+	
+	Pizza() {
+		
+	}
+}

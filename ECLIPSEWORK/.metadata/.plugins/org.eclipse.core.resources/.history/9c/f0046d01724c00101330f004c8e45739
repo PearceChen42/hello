@@ -1,0 +1,11 @@
+package defaultpackage;
+
+public class JavaConstructors {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Human man = new Human("Rick",65,70);
+		System.out.println(man.name);
+	}
+
+}

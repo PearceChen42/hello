@@ -1,0 +1,14 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Car car = new Car();
+		Bicycle bicycle = new Bicycle();
+		Boat boat = new Boat();
+		
+		Car[] racers = {car,bicycle,boat
+	}
+
+}

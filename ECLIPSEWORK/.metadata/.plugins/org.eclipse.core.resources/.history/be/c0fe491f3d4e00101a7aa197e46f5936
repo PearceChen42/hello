@@ -1,0 +1,8 @@
+
+public class Hero extends Person {
+
+	String power;
+	Hero(){
+		
+	}
+}

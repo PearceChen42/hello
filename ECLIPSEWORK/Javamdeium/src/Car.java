@@ -1,0 +1,23 @@
+
+public class Car extends Vehicle {
+	
+	String make = "Ford";
+	String model = "Mustang";
+	String color = "red";
+	int year = 2021;
+	String name;
+	int wheels = 4;
+	Car(String name) {
+		this.name = name;
+		
+	}
+	
+	public String toString() {
+		
+		String myString = make + "\n" + model + "\n" + color + "\n" + year ;
+		
+		return myString;
+		
+	}
+
+}

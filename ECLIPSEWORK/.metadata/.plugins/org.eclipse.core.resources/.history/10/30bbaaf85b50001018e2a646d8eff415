@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Enter a whole number to divide: ");
+		int x = scanner.nextInt();
+		
+		System.out.println("Enter a whole number to divide by: ");
+		int y = scanner.nextInt();
+		
+		int z = x/y;
+		
+		System.out.println("Result : " + z);
+		
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+
+public class Friend {
+	
+	String name;
+	
+	Friend(String name) {
+		this.name=name;
+		
+	}
+
+}
