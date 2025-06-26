@@ -1,9 +1,0 @@
-package defaultpackage;
-
-public class Human {
-
-	Human() {
-		
-	}
-
-}
