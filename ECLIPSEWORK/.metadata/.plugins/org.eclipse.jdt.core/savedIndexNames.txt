@@ -1,18 +1,4 @@
-INDEX VERSION 1.134+D:\Work\hello\ECLIPSEWORK\.metadata\.plugins\org.eclipse.jdt.core
-3594289890.index
-2566994146.index
-3462347405.index
-3533493139.index
-1551481728.index
-4042170851.index
-1154609262.index
-2726528299.index
-77428105.index
-2682422595.index
-2040395472.index
-2972433902.index
-4095194993.index
+INDEX VERSION 1.134+C:\Users\10244\Desktop\hello\ECLIPSEWORK\.metadata\.plugins\org.eclipse.jdt.core
 1865797976.index
-1742810761.index
-2430499251.index
-1848674566.index
+2703292443.index
+2726528299.index
