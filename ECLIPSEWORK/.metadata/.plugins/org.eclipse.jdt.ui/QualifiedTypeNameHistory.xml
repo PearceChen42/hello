@@ -13,4 +13,5 @@
     <fullyQualifiedTypeName name="java.awt.Color"/>
     <fullyQualifiedTypeName name="javax.swing.ImageIcon"/>
     <fullyQualifiedTypeName name="OutSide.InSide"/>
+    <fullyQualifiedTypeName name="java.io.ObjectStreamClass"/>
 </qualifiedTypeNameHistroy>
