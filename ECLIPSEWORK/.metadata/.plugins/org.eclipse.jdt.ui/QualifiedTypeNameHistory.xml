@@ -14,4 +14,6 @@
     <fullyQualifiedTypeName name="javax.swing.ImageIcon"/>
     <fullyQualifiedTypeName name="OutSide.InSide"/>
     <fullyQualifiedTypeName name="java.io.ObjectStreamClass"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
 </qualifiedTypeNameHistroy>
