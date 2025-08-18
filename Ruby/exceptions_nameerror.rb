@@ -1,0 +1,1 @@
+puts favorite_food
