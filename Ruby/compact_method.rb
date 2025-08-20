@@ -1,0 +1,1 @@
+p [1,2,nil,3,false,nil,nil].compact!
