@@ -1,0 +1,1 @@
+C:\Users\10244\Desktop\hello\Rust\Ownership_References_ErrorHanding_Project\target\debug\Ownership_References_ErrorHanding_Project.exe: C:\Users\10244\Desktop\hello\Rust\Ownership_References_ErrorHanding_Project\src\main.rs

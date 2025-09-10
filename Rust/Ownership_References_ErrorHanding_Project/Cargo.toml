@@ -1,0 +1,6 @@
+[package]
+name = "Ownership_References_ErrorHanding_Project"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

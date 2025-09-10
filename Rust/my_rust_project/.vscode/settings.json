@@ -1,0 +1,7 @@
+{
+    "rust-analyzer.testExplorer": true,
+    "rust-analyzer.initializeStopped": false,
+    "rust-analyzer.restartServerOnConfigChange": true,
+    "rust-analyzer.showSyntaxTree": true,
+    "rust-analyzer.assist.expressionFillDefault": "default"
+}
