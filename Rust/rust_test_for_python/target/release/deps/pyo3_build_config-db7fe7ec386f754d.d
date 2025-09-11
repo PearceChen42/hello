@@ -1,0 +1,14 @@
+C:\Users\10244\Desktop\hello\Rust\rust_test_for_python\target\release\deps\pyo3_build_config-db7fe7ec386f754d.d: C:\Users\10244\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\lib.rs C:\Users\10244\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\errors.rs C:\Users\10244\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\impl_.rs C:\Users\10244\Desktop\hello\Rust\rust_test_for_python\target\release\build\pyo3-build-config-8e4620156dc6ba0f\out/pyo3-build-config-file.txt C:\Users\10244\Desktop\hello\Rust\rust_test_for_python\target\release\build\pyo3-build-config-8e4620156dc6ba0f\out/pyo3-build-config.txt
+
+C:\Users\10244\Desktop\hello\Rust\rust_test_for_python\target\release\deps\libpyo3_build_config-db7fe7ec386f754d.rlib: C:\Users\10244\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\lib.rs C:\Users\10244\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\errors.rs C:\Users\10244\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\impl_.rs C:\Users\10244\Desktop\hello\Rust\rust_test_for_python\target\release\build\pyo3-build-config-8e4620156dc6ba0f\out/pyo3-build-config-file.txt C:\Users\10244\Desktop\hello\Rust\rust_test_for_python\target\release\build\pyo3-build-config-8e4620156dc6ba0f\out/pyo3-build-config.txt
+
+C:\Users\10244\Desktop\hello\Rust\rust_test_for_python\target\release\deps\libpyo3_build_config-db7fe7ec386f754d.rmeta: C:\Users\10244\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\lib.rs C:\Users\10244\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\errors.rs C:\Users\10244\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\impl_.rs C:\Users\10244\Desktop\hello\Rust\rust_test_for_python\target\release\build\pyo3-build-config-8e4620156dc6ba0f\out/pyo3-build-config-file.txt C:\Users\10244\Desktop\hello\Rust\rust_test_for_python\target\release\build\pyo3-build-config-8e4620156dc6ba0f\out/pyo3-build-config.txt
+
+C:\Users\10244\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\lib.rs:
+C:\Users\10244\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\errors.rs:
+C:\Users\10244\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\impl_.rs:
+C:\Users\10244\Desktop\hello\Rust\rust_test_for_python\target\release\build\pyo3-build-config-8e4620156dc6ba0f\out/pyo3-build-config-file.txt:
+C:\Users\10244\Desktop\hello\Rust\rust_test_for_python\target\release\build\pyo3-build-config-8e4620156dc6ba0f\out/pyo3-build-config.txt:
+
+# env-dep:CARGO_PKG_VERSION=0.22.6
+# env-dep:OUT_DIR=C:\\Users\\10244\\Desktop\\hello\\Rust\\rust_test_for_python\\target\\release\\build\\pyo3-build-config-8e4620156dc6ba0f\\out

@@ -1,0 +1,15 @@
+[package]
+name = "rust_test_for_python"
+version = "0.1.0"
+edition = "2024"
+
+
+[lib]
+name = "rust_core"
+crate-type = ["cdylib"]
+
+[dependencies]
+
+[dependencies.pyo3]
+version = "0.22.2"
+features = ["extension-module"]

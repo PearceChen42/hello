@@ -1,0 +1,10 @@
+implementation=CPython
+version=3.12
+shared=true
+abi3=false
+lib_name=python312
+lib_dir=C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\libs
+executable=C:\Users\10244\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\python.exe
+pointer_width=64
+build_flags=
+suppress_build_script_link_lines=false
